@@ -1,0 +1,82 @@
+* {
+  font: "Arial";
+  margin: 10px 20px;
+  /* padding: 20px; */
+}
+body {
+  background: rgb(200, 103, 245);
+}
+
+ul {
+  background: yellow;
+}
+/* the ff ovewries the above action on ul  */
+header .someParagraph {
+  background: rgb(77, 77, 238);
+}
+
+header .someParagraph:hover {
+  background: green;
+}
+
+.someSection .someParagraph {
+  background: rgb(18, 151, 29);
+}
+
+#someID {
+  background: rgb(245, 79, 79);
+}
+img {
+  width: 300px;
+}
+legend {
+  background-color: gray;
+  color: aqua;
+}
+input[type="range"] {
+  -webkit-appearance: slider-vertical;
+}
+fieldset {
+  border-radius: 20px;
+  border: 4px solid rgb(245, 172, 13);
+}
+input[type="radio"] {
+  margin: 0;
+}
+input[type="submit"] {
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  font-family: Tahoma;
+  background: rgb(34, 151, 219);
+}
+textarea {
+  border-radius: 12px;
+}
+textarea:invalid {
+  border: 8px dashed red;
+}
+textarea:valid {
+  border: 8px solid lime;
+}
+/* background image */
+
+.bg-image {
+  width: 80%;
+  height: 400px;
+  background-image: url("images/pen.jpg");
+  background-size: cover;
+  margin: 0 auto;
+}
+.bg-image2 {
+  width: 800px;
+  height: 400px;
+  background-image: url("images/pen.jpg");
+  background-size: cover;
+  margin: 0 auto;
+}
+.myHandWritting {
+  font-family: "Courgette", cursive;
+  color: rgb(206, 10, 10);
+  font-size: 30px;
+}
